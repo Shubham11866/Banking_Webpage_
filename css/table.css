@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color_mix1: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    --color_mix2: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+th, td{
+    padding: 5px 40px;
+    margin: 0;
+    /* display: flex; */
+}
+td{
+    background-color: #fff;
+}
+th{
+    padding-right: 150px;
+    color: #fff;
+    /* border: 2px solid #000; */
+}
+
+thead{
+    background-image:var(--color_mix1);
+}
+table{
+    box-sizing: border-box;
+}
+table p{
+    /* text-align: center; */
+    /* margin:min-content; */
+    text-align: center;
+}
+td{
+    font-size: 20px;
+    font-weight: normal;
+    color: #404040;
+}
+table img{
+    padding: 4px;
+    border-radius: 50%;
+    /* background-color: #ee0997; */
+}
+.table_row1 img{
+    background-color: #eaff00;
+}
+.table_row2 img{
+    background-color: #04ff00;
+}
+.table_row3 img{
+    background-color: #ff7700;
+}
+.table_row4 img{
+    background-color: #ffcd03;
+}
+.table_row5 img{
+    background-color: #ee0997;
+}
+.table_row6 img{
+    background-color: #00ffff;
+}
+.table_row7 img{
+    background-color: #ff7700;
+}
+
+.Compare_table{
+    overflow: scroll;
+}

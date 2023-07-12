@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:482px) {
+    .section_p_and_img {
+        margin-bottom: 0;
+    }
+    .footer_manu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer_elemant {
+        width: 40%;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+@media (min-width:782px) {
+    .nav_elemant {
+        display: flex;
+    }
+
+    .nav_manu{
+        display: none;
+    }
+/* ----------------------------- */
+    .featured_flex{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .how_it_works_menu{
+        width: 48%;
+    }
+    
+    .section_list{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .section_list {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .featured_flex{
+        display: flex;
+        flex-direction: row;
+        /* width: 48%; */
+    }
+    .featured_menu{
+        width: 48%;
+    }
+    .our_features_div1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /* ----------------------------------------------------- */
+    .Feed_peaple{
+        display: flex;
+    }
+    /* ------------------------------------------------------------------- */
+    .our_partner_manu{
+        justify-content: left;
+        padding-left: 50px;
+    }
+    /* ----------------------------------------------------------------------- */
+    .blog_manu{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        justify-content: space-evenly;
+    }
+    .blog_elemant{
+        width: 40%;
+    }
+    .footer_elemant{
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:982px) {
+
+
+    /* ----------------------------------------- */
+    .featured{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .section_list{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .how_it_works_menu{
+        width: 33%;
+    }
+    .section_head{
+        display: flex;
+        flex-direction: row;
+    }
+    .secthon_head_text_div{
+        width: 40%;
+    }
+    .secthon_head_money_transfer_div{
+        width: 55%;
+        margin-left: 4%;
+        margin:100px 4%;
+    }
+    
+
+    /* ----------------------- */
+    .common_sectoin_div1{
+        width: 50%;
+    }
+    .common_sectoin_div2{
+        width: 50%;
+    }
+    .common_sectoin_main_div{
+        display: flex;
+        flex-direction: row;
+    }
+    .AUTOMATED_ACCOUNTING , .SECURITY{
+        flex-direction:  row-reverse;
+    }
+    .section_our_features , .secthon_TRANSPARENCY , .secthon_FAST_EASY{
+        padding-right: 0;
+    }
+    .secthon_AUTOMATED_ACCOUNTING , .secthon_SECURITY{
+        padding-left: 0;
+    }
+    .common_sectoin_div1{
+        width: 40%;
+    }
+    .common_sectoin_div2{
+        width: 60%;
+    }
+    /* ------------------------------------------------------------------------- */
+    .our_features_div1{
+        width: 40%;
+    }
+    .our_features{
+        display: flex;
+        flex-direction: row;
+    }
+    .our_features_div2{
+        width: 60%;
+    }
+    .our_features_div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    /* ---------------------------------------------------------------------------------------- */
+    .Payment{
+        display: flex;
+        flex-direction: row;
+    }
+    .Payment_div1 , .Payment_div2{
+        width: 50%;
+    }
+    .section_Payment{
+        padding-right: 0;
+        background-color: #fff;
+    }
+    /* --------------------------------------------------------------------------------------------------- */
+    .customers_feed3 , .customers_feed1{
+        margin: 50px 20%;
+    }
+    .customers_feed2{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .customers_feed_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    /* ------------------------------------------------------------------------------------------------------------- */
+    .Feed_peaple , .Feed_peaple_div1 , .Feed_peaple_div5{
+        display: flex;
+    }
+    /* ----------------------------------------------------------------------------------------------------------------------- */
+    .app_download{
+        display: flex;
+        flex-direction: row;
+    }
+    .app_download_div1 , .app_download_div2{
+        width: 50%;
+    }
+    /* ---------------------------------------------------------------------- */
+
+    .blog_elemant{
+        width: 28%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
